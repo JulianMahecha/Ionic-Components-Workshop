@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <!-- Back Button -->
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <!-- Avatar -->
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <img src="../../../assets/img/spiderman.jpg">
+      </ion-avatar>
+    </ion-buttons>
+
+    <ion-title>Avatar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <!-- Chip -->
+  <h3>Chip</h3>
+  <ion-chip color="primary" *ngFor="let item of [1,1,1,1,1,1]">
+    <ion-avatar>
+      <img src="../../../assets/img/spiderman.jpg">
+    </ion-avatar>
+    <ion-label> Spiderman</ion-label>
+  </ion-chip>
+
+  <!-- Ion List -->
+  <h3>Ion List</h3>
+  <ion-list>
+    <ion-item *ngFor="let item of [1,1,1,1,1,1,1,1,1]">
+      <ion-avatar slot="start">
+        <img src="../../../assets/img/spiderman.jpg">
+      </ion-avatar>
+      <ion-label> Spiderman</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
