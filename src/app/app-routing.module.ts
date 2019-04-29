@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'datetime', loadChildren: './pages/datetime/datetime.module#DatetimePageModule' },
   { path: 'fabs', loadChildren: './pages/fabs/fabs.module#FabsPageModule' },
   { path: 'fabs', loadChildren: './pages/fabs/fabs.module#FabsPageModule' },
+  { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
 
 ];
 
