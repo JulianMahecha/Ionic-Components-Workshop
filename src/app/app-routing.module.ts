@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'fabs', loadChildren: './pages/fabs/fabs.module#FabsPageModule' },
   { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
   { path: 'infinite-scroll', loadChildren: './pages/infinite-scroll/infinite-scroll.module#InfiniteScrollPageModule' },
+  { path: 'input', loadChildren: './pages/input/input.module#InputPageModule' },
 
 ];
 
