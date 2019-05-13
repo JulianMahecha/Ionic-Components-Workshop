@@ -8,7 +8,8 @@ const routes: Routes = [
   { path: 'action-sheet', loadChildren: './pages/action-sheet/action-sheet.module#ActionSheetPageModule' },
   { path: 'avatar', loadChildren: './pages/avatar/avatar.module#AvatarPageModule' },
   { path: 'botones', loadChildren: './pages/botones/botones.module#BotonesPageModule' },
-  { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },  { path: 'check', loadChildren: './pages/check/check.module#CheckPageModule' },
+  { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },
+  { path: 'check', loadChildren: './pages/check/check.module#CheckPageModule' },
   { path: 'datetime', loadChildren: './pages/datetime/datetime.module#DatetimePageModule' },
   { path: 'fabs', loadChildren: './pages/fabs/fabs.module#FabsPageModule' },
   { path: 'fabs', loadChildren: './pages/fabs/fabs.module#FabsPageModule' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'list', loadChildren: './pages/list/list.module#ListPageModule' },
   { path: 'list-reorder', loadChildren: './pages/list-reorder/list-reorder.module#ListReorderPageModule' },
   { path: 'loading', loadChildren: './pages/loading/loading.module#LoadingPageModule' },
+  { path: 'modal', loadChildren: './pages/modal/modal.module#ModalPageModule' },
 
 ];
 

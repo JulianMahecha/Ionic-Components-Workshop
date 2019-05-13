@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { MenuComponent } from './menu/menu.component';
 import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,8 @@ import { HeaderComponent } from './header/header.component';
   ],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    RouterModule
   ]
 })
 export class ComponentsModule { }
